@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    width: 99%;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    margin-bottom: 9%;
+    margin-top: 0.3em;
+    justify-content: flex-end;
+    vertical-align: middle;
+}
+
+header nav ul li {
+    padding: 0 1.2em 0 0;
+    margin: 0 0.3em 0 0;
+}
+
+header nav ul li img {
+    width: 165%;
+}
+
+header nav ul li:nth-child(1) a:hover,
+header nav ul li:nth-child(2) a:hover {
+    text-decoration: underline;
+    color: plum;
+}
+
+header nav ul li:nth-child(4) {
+    background: #7babf7;
+    padding: 0.2em 1em;
+    border-radius: 3px;
+}
+
+.logo {
+    margin-top: 2.1em;
+    width: 20%;
+}
+
+.search-bar {
+    height: 2.6em;
+    width: 40%;
+    border: 0.5px solid #f2f0ed;
+    margin: 1.5% auto 0%;
+    border-radius: 21px;
+}
+
+.search-bar:hover {
+    box-shadow: 0 2px 2px 1px #cecbc6;
+}
+
+.first-button,
+.second-button {
+    display: inline-block;
+    margin-top: 1.8em;
+    padding: 0.3em 1.1em;
+    font-size: 1.1em;
+    background: #e5e0d7;
+    border-radius: 6px;
+}
+
+.first-button {
+    margin-right: 0.9em;
+}
+
+.language {
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+main section p a {
+    display: inline-block;
+    color: blue;
+    margin-left: 0.4em;
+}
+
+.gray-container {
+    background: #efece8;
+    margin: 6.65em 0 0 0;
+}
+
+.gray-container .container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 0;
+}
+
+.location {
+    border-top: 0.2px solid #cccac7;
+    border-bottom: 0.2px solid #cccac7;
+    margin: 0;
+    padding: 0 1em 0;
+}
+
+.location h3 {
+    font-weight: 3;
+    font-size: 1.25em;
+    color: #b5b1ab;
+    padding: 0;
+    margin: 0.5em 0.2em;
+}
+
+nav .footer-menu li {
+    display: inline-block;
+    margin-right: 0.7em;
+}
+
+nav .footer-menu li a {
+    color: #b5b1ab;
+}
+
+nav .footer-menu li a:hover {
+    text-decoration: underline;
+}
+
+nav .footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .footer-menu .left-menu {
+    margin-left: -1.1em;
+}
